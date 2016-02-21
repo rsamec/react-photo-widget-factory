@@ -1,0 +1,29 @@
+{
+  "name": "react-photo-widget-factory",
+  "version": "0.0.0",
+  "description": "PhotoWidgetFactory",
+  "main": "dist/react-photo-widget-factory.min.js",
+  "homepage": "https://github.com/rsamec/react-photo-widget-factory",
+  "authors": [
+    "Roman Samec"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
