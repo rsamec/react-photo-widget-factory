@@ -1,10 +1,15 @@
 import React from 'react';
 import styleBorder from './utils/border';
+import styleFont from './utils/font';
 
 let Box = (props) => {
 
 	var style = {};
-	
+
+  //font
+  var fontStyle = {};
+  styleFont(fontStyle, props.font);
+
 	//border
 	styleBorder(style,props.border);
 
@@ -23,7 +28,7 @@ let Box = (props) => {
 
 	return <article className="caption">
 		<img style={style} className="caption__media" src={props.url} />
-		<div className="caption__overlay">
+		<div style={fontStyle} className="caption__overlay">
 			<h1 className="caption__overlay__title">{props.caption}</h1>
 			<p className="caption__overlay__content" dangerouslySetInnerHTML={{__html: props.description}}></p>
 		</div>
