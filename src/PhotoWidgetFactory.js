@@ -2,6 +2,9 @@ import _ from 'lodash';
 import React from 'react';
 
 //core text
+import TextRenderer from './widgets/TextRenderer';
+import RichTextRenderer from './widgets/RichTextRenderer';
+import JsxRenderer from './widgets/JsxRenderer';
 import HtmlContent from './widgets/HtmlContent';
 import ArticleContent from './widgets/ArticleContent';
 import ListItemContent from './widgets/ListItemContent';
@@ -16,6 +19,7 @@ import ImageBox from './widgets/ImageBox';
 import SmartImageBox from './widgets/SmartImageBox';
 import ATvImageBox from './widgets/ATvImageBox';
 
+
 //flex box
 import ImageFlexBox from './widgets/ImageFlexBox';
 
@@ -26,7 +30,11 @@ import Icon from './widgets/Icon';
 import IconMorphTransition from './widgets/IconMorphTransition';
 
 export default {
+	
+	"TextContent":TextRenderer,
+	"RichTextContent":RichTextRenderer,
 	"HtmlContent": HtmlContent,
+	"JsxContent": JsxRenderer,
 	"ArticleContent": ArticleContent,
 	"ListItemContent": ListItemContent,
 
@@ -42,5 +50,7 @@ export default {
 
 	"TextBoxInput":TextBoxInput,
 	"Icon":Icon,
+	"IconMorph":IconMorphTransition,
+	//deprecated name
 	"IconMorphTransition":IconMorphTransition
 };

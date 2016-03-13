@@ -1,6 +1,6 @@
 {
   "name": "react-photo-widget-factory",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "PhotoWidgetFactory",
   "main": "lib/PhotoWidgetFactory.js",
   "author": "Roman Samec",
@@ -13,6 +13,7 @@
     "url": "https://github.com/rsamec/react-photo-widget-factory/issues"
   },
   "dependencies": {
+    "backdraft-js": "0.0.1",
     "classnames": "^2.1.2",
     "lodash": "^4.5.0",
     "react-atv-img": "^0.1.1",
