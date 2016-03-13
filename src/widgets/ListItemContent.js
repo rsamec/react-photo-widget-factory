@@ -9,7 +9,7 @@ let Box = (props) => {
 	if (props.height) style.height = props.height;
 	if (props.width) style.width = props.width;
 
-	var textStyle = styleFont(style, props.font);
+	var textStyle = styleFont({}, props.font);
 	textStyle['position'] = 'relative';
 	if (props.counterReset !== undefined) textStyle.counterReset = 'item ' + (props.counterReset - 1);
 

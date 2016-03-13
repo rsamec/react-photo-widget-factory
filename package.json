@@ -1,6 +1,6 @@
 {
   "name": "react-photo-widget-factory",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "PhotoWidgetFactory",
   "main": "lib/PhotoWidgetFactory.js",
   "author": "Roman Samec",
