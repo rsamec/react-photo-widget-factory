@@ -16,7 +16,7 @@ let box = (props) => {
 
 	if (icon === undefined) return React.DOM.span(null, 'Icon ' + props.icon + ' is not register among icons.');
 	var iconProps = styleSvg(style,props);
-	console.log(iconProps);
+	
 	return React.createElement(icon,iconProps,null);
 }
 box.defaultProps = {icon:'Md3dRotation',minWidth:100,minHeight:100};
